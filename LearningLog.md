@@ -21,3 +21,20 @@ after open terminal type
 > defaults write org.R-project.R force.LANG en_US.UTF-8
 
 and restart R
+
+## Needed packages
+
+|packages|description|
+|:-:|:-:|
+|ggplot2|visualization packages|
+|moonBook||
+|dplyr||
+|R markdown||
+|zoo||
+|xts||
+|quantmod||
+
+
+
+library(ggplot2)
+library(moonBook) 
