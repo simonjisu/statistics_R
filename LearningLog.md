@@ -26,15 +26,13 @@ and restart R
 
 |packages|description|
 |:-:|:-:|
-|ggplot2|visualization packages|
-|moonBook||
-|dplyr||
-|R markdown||
-|zoo||
-|xts||
-|quantmod||
-
-
-
-library(ggplot2)
-library(moonBook) 
+|ggplot2|https://cran.r-project.org/web/packages/ggplot2/index.html|
+|ggmap|https://cran.r-project.org/web/packages/ggmap/index.html|
+|moonBook|https://cran.r-project.org/web/packages/moonBook/index.html|
+|dplyr|https://cran.r-project.org/web/packages/dplyr/index.html|
+|R markdown|https://cran.r-project.org/web/packages/rmarkdown/index.html|
+|zoo|https://cran.r-project.org/web/packages/zoo/index.html|
+|xts|https://cran.r-project.org/web/packages/xts/index.html|
+|quantmod|https://cran.r-project.org/web/packages/quantmod/index.html|
+|mlbench|https://cran.r-project.org/web/packages/mlbench/index.html|
+|mycor|https://cran.r-project.org/web/packages/mycor/index.html|
