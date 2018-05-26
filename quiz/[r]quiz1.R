@@ -1,6 +1,6 @@
 # week 1 quiz 0
-setwd("./materials/Week1/1주차 퀴즈")
-
+setwd("../materials/Week1/1주차 퀴즈")
+getwd()
 # 1. read COPD_Lung_Cancer.csv
 df1 <- read.csv("COPD_Lung_Cancer.csv") 
 df2 <- read_csv("COPD_Lung_Cancer.csv") # returns error

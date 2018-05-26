@@ -22,6 +22,23 @@ after open terminal type
 
 and restart R
 
+## 2. R gcc Problem
+
+package cannot install, because of gcc
+
+* solution link: [link](https://thecoatlessprofessor.com/programming/rcpp-rcpparmadillo-and-os-x-mavericks--lgfortran-and--lquadmath-error/) 
+
+> 1. Install gfortran [here](https://gcc.gnu.org/wiki/GFortranBinaries#MacOS)
+> 2. type below (if there is no .R directory make one
+
+```
+mkdir ~/.R
+cd .R
+cat << EOF >> ~/.R/Makevars
+FLIBS=-L/usr/local/gfortran/lib/gcc/x86_64-apple-darwin16/6.3.0 -L/usr/local/gfortran/lib -lgfortran -lquadmath -lm
+EOF
+```
+
 ## Needed packages
 
 |packages|description|
@@ -36,3 +53,4 @@ and restart R
 |quantmod|https://cran.r-project.org/web/packages/quantmod/index.html|
 |mlbench|https://cran.r-project.org/web/packages/mlbench/index.html|
 |mycor|https://cran.r-project.org/web/packages/mycor/index.html|
+|mice|https://cran.r-project.org/web/packages/mice/index.html|
